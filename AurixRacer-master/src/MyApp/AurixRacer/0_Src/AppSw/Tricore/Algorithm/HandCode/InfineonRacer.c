@@ -235,7 +235,7 @@ void InfineonRacer_detectLane(void){
 		else	IR_Ctrl.FLine[i-2] = 1;
 		//IR_Ctrl.DLine[i-2] = IR_Ctrl.SumLine[i]/200;
 
-		/*if((i-2)%5 == 0){
+		/*if((i-2)%5 == 0){ // 컨버터를 이용하여서 공부를 해야한다.
 			IR_Ctrl.SmalLine[(i-2)/5] = IR_Ctrl.SumLine[i];
 		}*/
 	}
